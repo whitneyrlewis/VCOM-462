@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="let_sCookWorking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="startpage.png" translatesAutoresizingMaskIntoConstraints="NO" id="pHs-lz-DYI">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btj-KY-dWc">
+                                <rect key="frame" x="355" y="255" width="51" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="nextButton.png"/>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Dzx-HF-m0E"/>
+                                    <segue destination="X6u-wJ-wqz" kind="show" id="KbW-is-OM8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="94" y="-26"/>
+        </scene>
+        <!--Dialogue-->
+        <scene sceneID="zwF-od-Anc">
+            <objects>
+                <viewController title="Dialogue" id="X6u-wJ-wqz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s80-ag-9Ch">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dialogue.png" translatesAutoresizingMaskIntoConstraints="NO" id="T5v-Pa-mTQ">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdd-ya-SJ5">
+                                <rect key="frame" x="461" y="261" width="51" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="nextButton.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Puu-il-vVr">
+                                <rect key="frame" x="461" y="261" width="51" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="nextButton.png"/>
+                                <connections>
+                                    <action selector="button2Recipes:" destination="QYS-m3-EVw" eventType="touchUpInside" id="Fu2-17-ig1"/>
+                                    <segue destination="2OE-D5-txa" kind="show" id="Rat-fP-Kfh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lWc-7U-WNA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tAT-b5-lva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="QYS-m3-EVw" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="760.56338028169012" y="-26.25"/>
+        </scene>
+        <!--Recipes-->
+        <scene sceneID="rk0-yR-Sij">
+            <objects>
+                <viewController title="Recipes" id="2OE-D5-txa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WxP-d2-5D9">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="QJQ-wq-rd3">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hotdog.png" translatesAutoresizingMaskIntoConstraints="NO" id="yva-bV-APD">
+                                <rect key="frame" x="176" y="151" width="95" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="doughnuts.png" translatesAutoresizingMaskIntoConstraints="NO" id="0PA-sJ-R6D">
+                                <rect key="frame" x="421" y="102" width="95" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hamburger.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yff-pZ-YfG">
+                                <rect key="frame" x="295" y="112" width="103" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFx-yw-hcE">
+                                <rect key="frame" x="60" y="112" width="74" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="fries.png"/>
+                                <connections>
+                                    <segue destination="HYh-3x-9SV" kind="show" id="2i7-a2-tGW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgn-LT-eFC">
+                                <rect key="frame" x="225" y="33" width="118" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Tap a Recipe">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Gorditas-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SJL-Uv-9qX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ABj-RG-dDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412.323943661972" y="-26.25"/>
+        </scene>
+        <!--NextPage-->
+        <scene sceneID="ywM-LW-P5n">
+            <objects>
+                <viewController title="NextPage" id="HYh-3x-9SV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2rg-oy-J9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZbZ-FO-igB">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cupboard.png" translatesAutoresizingMaskIntoConstraints="NO" id="hJI-7N-JmD">
+                                <rect key="frame" x="242" y="85" width="283" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YY0-Ud-aEX">
+                                <rect key="frame" x="515" y="12" width="33" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="home.png"/>
+                                <connections>
+                                    <action selector="homeButton:" destination="Mh8-vr-xEj" eventType="touchUpInside" id="z5e-lq-h1d"/>
+                                    <segue destination="2OE-D5-txa" kind="show" id="JGe-X4-eY2"/>
+                                </connections>
+                            </button>
+                            <skView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" sceneName="MySceneAnimation.sks" translatesAutoresizingMaskIntoConstraints="NO" id="jPI-1P-AS5">
+                                <rect key="frame" x="42" y="50" width="192" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </skView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potatoe.png" translatesAutoresizingMaskIntoConstraints="NO" id="KZl-uo-ttF">
+                                <rect key="frame" x="257" y="251" width="33" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="VFE-HH-LaY" appends="YES" id="qzl-J3-bUP"/>
+                                    <outletCollection property="gestureRecognizers" destination="gXn-0n-off" appends="YES" id="VaM-Va-ecl"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GDv-5b-w2O"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jDr-di-fsX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Mh8-vr-xEj" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="VFE-HH-LaY">
+                    <connections>
+                        <action selector="movementPotatoe:" destination="Mh8-vr-xEj" id="chL-ca-M0V"/>
+                        <outlet property="delegate" destination="KZl-uo-ttF" id="DQ9-DS-1tA"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gXn-0n-off">
+                    <connections>
+                        <action selector="movePotatoe:" destination="Mh8-vr-xEj" id="QdB-ff-sZF"/>
+                        <outlet property="delegate" destination="HYh-3x-9SV" id="vGe-gW-ccY"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2047.1830985915494" y="-26.25"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="568" height="320"/>
+        <image name="cupboard.png" width="292" height="172"/>
+        <image name="dialogue.png" width="568" height="320"/>
+        <image name="doughnuts.png" width="62" height="62"/>
+        <image name="fries.png" width="46" height="57"/>
+        <image name="hamburger.png" width="76" height="58"/>
+        <image name="home.png" width="512" height="512"/>
+        <image name="hotdog.png" width="69" height="28"/>
+        <image name="nextButton.png" width="48" height="45"/>
+        <image name="potatoe.png" width="45" height="58"/>
+        <image name="startpage.png" width="568" height="320"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="JGe-X4-eY2"/>
+    </inferredMetricsTieBreakers>
+</document>

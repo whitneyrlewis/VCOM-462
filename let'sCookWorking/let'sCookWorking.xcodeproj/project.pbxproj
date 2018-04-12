@@ -13,6 +13,7 @@
 		3612F6172063035C00D0BB80 /* doughnuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F6162063035C00D0BB80 /* doughnuts.png */; };
 		3612F61920630F7E00D0BB80 /* cupboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F61820630F7E00D0BB80 /* cupboard.png */; };
 		3612F61B20630F8C00D0BB80 /* potatoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F61A20630F8C00D0BB80 /* potatoe.png */; };
+		36148F1C207071C700C4039B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148F1B207071C700C4039B /* ViewController.m */; };
 		361682562058A50600520389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361682552058A50600520389 /* AppDelegate.swift */; };
 		361682582058A50600520389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361682572058A50600520389 /* ViewController.swift */; };
 		3616825B2058A50600520389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361682592058A50600520389 /* Main.storyboard */; };
@@ -22,9 +23,15 @@
 		3616826A2058A62A00520389 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 361682692058A62A00520389 /* nextButton.png */; };
 		3616826C2058A63400520389 /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 3616826B2058A63400520389 /* character.png */; };
 		361682702058AE8E00520389 /* dialogue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3616826F2058AE8E00520389 /* dialogue.png */; };
+		365060F62075564E00EDD9A5 /* actionPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 365060F52075564D00EDD9A5 /* actionPage.png */; };
 		365D1CA5206ABA420064DD38 /* MySceneAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 365D1CA4206ABA410064DD38 /* MySceneAnimation.sks */; };
 		3695788C20697DB300511F95 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3695788B20697DAF00511F95 /* home.png */; };
 		36DCE530205A1F59007B77D9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DCE52F205A1F59007B77D9 /* background.png */; };
+		36DD5EE9207473EA00FEC5D8 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DD5EE8207473EA00FEC5D8 /* secondViewController.swift */; };
+		36EC1B7C207FD40300AAE420 /* thirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1B7B207FD40300AAE420 /* thirdController.swift */; };
+		36F1523E20768C6100675E10 /* salt.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F1523D20768C6000675E10 /* salt.png */; };
+		36F1524020768C6C00675E10 /* pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F1523F20768C6C00675E10 /* pepper.png */; };
+		36F1524220768CE400675E10 /* bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F1524120768CE300675E10 /* bowl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,8 @@
 		3612F6162063035C00D0BB80 /* doughnuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doughnuts.png; path = ../cookingGameStuff/images/doughnuts.png; sourceTree = "<group>"; };
 		3612F61820630F7E00D0BB80 /* cupboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cupboard.png; path = ../cookingGameStuff/images/cupboard.png; sourceTree = "<group>"; };
 		3612F61A20630F8C00D0BB80 /* potatoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = potatoe.png; path = ../cookingGameStuff/images/potatoe.png; sourceTree = "<group>"; };
+		36148F172070708500C4039B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36148F1B207071C700C4039B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		361682522058A50600520389 /* let'sCookWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "let'sCookWorking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		361682552058A50600520389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		361682572058A50600520389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,9 +54,15 @@
 		361682692058A62A00520389 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextButton.png; path = ../cookingGameStuff/images/nextButton.png; sourceTree = "<group>"; };
 		3616826B2058A63400520389 /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = character.png; path = ../cookingGameStuff/images/character.png; sourceTree = "<group>"; };
 		3616826F2058AE8E00520389 /* dialogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dialogue.png; path = ../cookingGameStuff/images/dialogue.png; sourceTree = "<group>"; };
+		365060F52075564D00EDD9A5 /* actionPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = actionPage.png; path = ../cookingGameStuff/images/actionPage.png; sourceTree = "<group>"; };
 		365D1CA4206ABA410064DD38 /* MySceneAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MySceneAnimation.sks; sourceTree = "<group>"; };
 		3695788B20697DAF00511F95 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../cookingGameStuff/images/home.png; sourceTree = "<group>"; };
 		36DCE52F205A1F59007B77D9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../cookingGameStuff/images/background.png; sourceTree = "<group>"; };
+		36DD5EE8207473EA00FEC5D8 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		36EC1B7B207FD40300AAE420 /* thirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdController.swift; sourceTree = "<group>"; };
+		36F1523D20768C6000675E10 /* salt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salt.png; path = ../cookingGameStuff/images/salt.png; sourceTree = "<group>"; };
+		36F1523F20768C6C00675E10 /* pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepper.png; path = ../cookingGameStuff/images/pepper.png; sourceTree = "<group>"; };
+		36F1524120768CE300675E10 /* bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl.png; path = ../cookingGameStuff/images/bowl.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,10 @@
 				3612F61820630F7E00D0BB80 /* cupboard.png */,
 				3612F61A20630F8C00D0BB80 /* potatoe.png */,
 				3695788B20697DAF00511F95 /* home.png */,
+				365060F52075564D00EDD9A5 /* actionPage.png */,
+				36F1523D20768C6000675E10 /* salt.png */,
+				36F1523F20768C6C00675E10 /* pepper.png */,
+				36F1524120768CE300675E10 /* bowl.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,7 +113,11 @@
 			children = (
 				361682552058A50600520389 /* AppDelegate.swift */,
 				361682572058A50600520389 /* ViewController.swift */,
+				36DD5EE8207473EA00FEC5D8 /* secondViewController.swift */,
+				36EC1B7B207FD40300AAE420 /* thirdController.swift */,
 				361682592058A50600520389 /* Main.storyboard */,
+				36148F172070708500C4039B /* ViewController.h */,
+				36148F1B207071C700C4039B /* ViewController.m */,
 				3616825C2058A50600520389 /* Assets.xcassets */,
 				3616825E2058A50600520389 /* LaunchScreen.storyboard */,
 				361682612058A50700520389 /* Info.plist */,
@@ -130,11 +153,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = WhitneyLewis;
 				TargetAttributes = {
 					361682512058A50600520389 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -164,6 +188,7 @@
 			files = (
 				361682702058AE8E00520389 /* dialogue.png in Resources */,
 				36DCE530205A1F59007B77D9 /* background.png in Resources */,
+				36F1524020768C6C00675E10 /* pepper.png in Resources */,
 				361682602058A50600520389 /* LaunchScreen.storyboard in Resources */,
 				3616826A2058A62A00520389 /* nextButton.png in Resources */,
 				3616825D2058A50600520389 /* Assets.xcassets in Resources */,
@@ -172,8 +197,11 @@
 				365D1CA5206ABA420064DD38 /* MySceneAnimation.sks in Resources */,
 				361682682058A61F00520389 /* startpage.png in Resources */,
 				3612F61920630F7E00D0BB80 /* cupboard.png in Resources */,
+				36F1524220768CE400675E10 /* bowl.png in Resources */,
 				3616826C2058A63400520389 /* character.png in Resources */,
+				36F1523E20768C6100675E10 /* salt.png in Resources */,
 				3612F61B20630F8C00D0BB80 /* potatoe.png in Resources */,
+				365060F62075564E00EDD9A5 /* actionPage.png in Resources */,
 				3695788C20697DB300511F95 /* home.png in Resources */,
 				3612F6172063035C00D0BB80 /* doughnuts.png in Resources */,
 				3612F6152063034B00D0BB80 /* hotdog.png in Resources */,
@@ -188,8 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DD5EE9207473EA00FEC5D8 /* secondViewController.swift in Sources */,
+				36148F1C207071C700C4039B /* ViewController.m in Sources */,
 				361682582058A50600520389 /* ViewController.swift in Sources */,
 				361682562058A50600520389 /* AppDelegate.swift in Sources */,
+				36EC1B7C207FD40300AAE420 /* thirdController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +260,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -236,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -286,6 +319,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -293,6 +327,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -326,11 +361,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "let'sCookWorking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Winthrop.let-sCookWorking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,11 +379,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "let'sCookWorking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Winthrop.let-sCookWorking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

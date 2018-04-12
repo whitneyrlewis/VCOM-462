@@ -7,12 +7,18 @@
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
         <script type="text/javascript" src="cordova.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=Your_API_Key"></script>
-        <script src="js/script.js"></script>
+        <script type="text/javascript" src=".../plugins/cordova-plugin-geolocation/www/geolocation.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/places.js"></script>
+        <script type="text/javascript" src="js/search.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuoLj3wmVFFpmrqIb54_ahu93KnTydqKY&libraries=places&callback=initMap&callback=getMap" async defer></script>
     </head>
     <body>
-      <div class="container">
-      
-      </div>
+        <div id="map">
+        </div>
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+        <section class="border">
+          <a href="index.html" class="button2" rel="external">Go Back</a>
+        </section>
     </body>
 </html>

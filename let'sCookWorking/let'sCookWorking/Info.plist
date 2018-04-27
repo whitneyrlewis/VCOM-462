@@ -40,5 +40,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gorditas-Bold.ttf</string>
+		<string>Gorditas-Regular.tff</string>
+	</array>
 </dict>
 </plist>

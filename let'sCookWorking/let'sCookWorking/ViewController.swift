@@ -8,13 +8,20 @@
 
 import UIKit
 import SpriteKit
+import AVFoundation
 
 class ViewController: UIViewController {
-    //var panGesture  = UIPanGestureRecognizer()
+
+    var AudioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let AssortedMusics = NSURL(fileURLWithPath: Bundle.main.path(forResource: "cuteMusic", ofType: "mp3")!)
+        AudioPlayer = try! AVAudioPlayer(contentsOf: AssortedMusics as URL)
+        AudioPlayer.prepareToPlay()
+        AudioPlayer.numberOfLoops = -1
+        AudioPlayer.play()
     }
         
     @IBAction func startGame(_ sender: UIButton) {
@@ -24,35 +31,95 @@ class ViewController: UIViewController {
     }
     
     @IBAction func homeButton(_ sender: UIButton) {
+   
     }
-    
+  
     @IBAction func movePotatoe(_ sender: UIPanGestureRecognizer) {
-        //let myImageView = UIImageView(image: UIImage(named: "potatoe.png"))
-        //myImageView.frame = CGRect(x: 268, y: 251, width: 50, height: 50)
+        if sender.state == .began || sender.state == .changed {
+            let translation = sender.translation(in: sender.view)
+            let changeX = (sender.view?.center.x)! + translation.x
+            let changeY = (sender.view?.center.y)! + translation.y
+            sender.view?.center = CGPoint(x: changeX, y: changeY)
+            sender.setTranslation(CGPoint.zero, in: sender.view)
+        }
         
-        //myImageView.isUserInteractionEnabled = true
-        //Must be enabled for tap events
-        
-        //view.addSubview(myImageView)
-        //Add an image programmatically
-        
-        //let myPanGestureRecognizer = //UIPanGestureRecognizer(target: self, action: //#selector(myPanAction))
-        
-       // myPanGestureRecognizer.minimumNumberOfTouches = 1
-        //myPanGestureRecognizer.maximumNumberOfTouches = 1
-        
-        //myImageView.addGestureRecognizer(myPanGestureRecognizer)
-    
-    //}
-   // @objc func myPanAction(recognizer: UIPanGestureRecognizer) {
-        //let translation = recognizer.translation(in: //self.view)
-        //if let myView = recognizer.view {
-            //myView.center = CGPoint(x: myView.center.x + //translation.x, y: myView.center.y + //translation.y)
-       // }
-        //recognizer.setTranslation(CGPoint(x: 0, y: 0), in: self.view)
     }
-    @IBAction func movementPotatoe(_ sender: UITapGestureRecognizer) {
+    @IBAction func movePotatoe2(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .began || sender.state == .changed {
+            let translation = sender.translation(in: sender.view)
+            let changeX = (sender.view?.center.x)! + translation.x
+            let changeY = (sender.view?.center.y)! + translation.y
+            sender.view?.center = CGPoint(x: changeX, y: changeY)
+            sender.setTranslation(CGPoint.zero, in: sender.view)
+        }
+    }
     
+    @IBAction func moveSalt(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .began || sender.state == .changed {
+            let translation = sender.translation(in: sender.view)
+            let changeX = (sender.view?.center.x)! + translation.x
+            let changeY = (sender.view?.center.y)! + translation.y
+            sender.view?.center = CGPoint(x: changeX, y: changeY)
+            sender.setTranslation(CGPoint.zero, in: sender.view)
+        }
+    }
+    
+    @IBAction func movePepper(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .began || sender.state == .changed {
+            let translation = sender.translation(in: sender.view)
+            let changeX = (sender.view?.center.x)! + translation.x
+            let changeY = (sender.view?.center.y)! + translation.y
+            sender.view?.center = CGPoint(x: changeX, y: changeY)
+            sender.setTranslation(CGPoint.zero, in: sender.view)
+        }
+    }
+    @IBAction func rotateSalt(_ sender: UIRotationGestureRecognizer) {
+        sender.view?.transform = (sender.view?.transform)!.rotated(by: sender.rotation)
+        sender.rotation = 0
+        
+    }
+    
+    @IBAction func rotatePepper(_ sender: UIRotationGestureRecognizer) {
+        sender.view?.transform = (sender.view?.transform)!.rotated(by: sender.rotation)
+        sender.rotation = 0
+    }
+    
+    @IBAction func lockedHam(_ sender: Any) {
+    
+        let alertButton = UIAlertController(title: "Let's Cook", message: "Wait a minute, you hsven't purchased this reciepe yet", preferredStyle: UIAlertControllerStyle.alert)
+        alertButton.addAction(UIAlertAction(title:"Close",style:UIAlertActionStyle.default,handler:nil))
+        self.present(alertButton,animated: true,completion: nil)
+    }
+    
+    @IBAction func lockHam2(_ sender: Any) {
+        let alertButton = UIAlertController(title: "Let's Cook", message: "Wait a minute, you hsven't purchased this reciepe yet", preferredStyle: UIAlertControllerStyle.alert)
+        alertButton.addAction(UIAlertAction(title:"Close",style:UIAlertActionStyle.default,handler:nil))
+        self.present(alertButton,animated: true,completion: nil)
+    
+    }
+    
+    @IBAction func lockham3(_ sender: Any) {
+        let alertButton = UIAlertController(title: "Let's Cook", message: "Wait a minute, you hsven't purchased this reciepe yet", preferredStyle: UIAlertControllerStyle.alert)
+        alertButton.addAction(UIAlertAction(title:"Close",style:UIAlertActionStyle.default,handler:nil))
+        self.present(alertButton,animated: true,completion: nil)
+    }
+    
+    @IBAction func lockDou3(_ sender: Any) {
+        let alertButton = UIAlertController(title: "Let's Cook", message: "Wait a minute, you hsven't purchased this reciepe yet", preferredStyle: UIAlertControllerStyle.alert)
+        alertButton.addAction(UIAlertAction(title:"Close",style:UIAlertActionStyle.default,handler:nil))
+        self.present(alertButton,animated: true,completion: nil)
+    }
+    
+    @IBAction func lockDou2(_ sender: Any) {
+        let alertButton = UIAlertController(title: "Let's Cook", message: "Wait a minute, you hsven't purchased this reciepe yet", preferredStyle: UIAlertControllerStyle.alert)
+        alertButton.addAction(UIAlertAction(title:"Close",style:UIAlertActionStyle.default,handler:nil))
+        self.present(alertButton,animated: true,completion: nil)
+    }
+    @IBAction func lockDoug(_ sender: Any) {
+        let alertButton = UIAlertController(title: "Let's Cook", message: "Wait a minute, you hsven't purchased this reciepe yet", preferredStyle: UIAlertControllerStyle.alert)
+        alertButton.addAction(UIAlertAction(title:"Close",style:UIAlertActionStyle.default,handler:nil))
+        self.present(alertButton,animated: true,completion: nil)
+        
     }
     
     override func didReceiveMemoryWarning() {

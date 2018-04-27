@@ -7,42 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3612F6112063033600D0BB80 /* fries.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F6102063033600D0BB80 /* fries.png */; };
-		3612F6132063034000D0BB80 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F6122063034000D0BB80 /* hamburger.png */; };
-		3612F6152063034B00D0BB80 /* hotdog.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F6142063034A00D0BB80 /* hotdog.png */; };
-		3612F6172063035C00D0BB80 /* doughnuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F6162063035C00D0BB80 /* doughnuts.png */; };
-		3612F61920630F7E00D0BB80 /* cupboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F61820630F7E00D0BB80 /* cupboard.png */; };
-		3612F61B20630F8C00D0BB80 /* potatoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3612F61A20630F8C00D0BB80 /* potatoe.png */; };
-		36148F1C207071C700C4039B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36148F1B207071C700C4039B /* ViewController.m */; };
 		361682562058A50600520389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361682552058A50600520389 /* AppDelegate.swift */; };
 		361682582058A50600520389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361682572058A50600520389 /* ViewController.swift */; };
 		3616825B2058A50600520389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361682592058A50600520389 /* Main.storyboard */; };
 		3616825D2058A50600520389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3616825C2058A50600520389 /* Assets.xcassets */; };
 		361682602058A50600520389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3616825E2058A50600520389 /* LaunchScreen.storyboard */; };
-		361682682058A61F00520389 /* startpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 361682672058A61F00520389 /* startpage.png */; };
-		3616826A2058A62A00520389 /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 361682692058A62A00520389 /* nextButton.png */; };
-		3616826C2058A63400520389 /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 3616826B2058A63400520389 /* character.png */; };
-		361682702058AE8E00520389 /* dialogue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3616826F2058AE8E00520389 /* dialogue.png */; };
-		365060F62075564E00EDD9A5 /* actionPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 365060F52075564D00EDD9A5 /* actionPage.png */; };
+		361FC23F208EC92600309707 /* gorditas in Resources */ = {isa = PBXBuildFile; fileRef = 361FC23E208EC92600309707 /* gorditas */; };
+		363B36D2209386A70088B85B /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD62092ABFE0087CE03 /* checkmark.png */; };
+		363B36D3209386A70088B85B /* continueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD42092ABFE0087CE03 /* continueButton.png */; };
+		363B36D4209386A70088B85B /* friesBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC72092ABFA0087CE03 /* friesBig@2x.png */; };
+		363B36D5209386A70088B85B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD52092ABFE0087CE03 /* star.png */; };
+		363B36D6209386A70088B85B /* Line 51.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD12092ABFD0087CE03 /* Line 51.png */; };
+		363B36D7209386A70088B85B /* startpage.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC82092ABFA0087CE03 /* startpage.png */; };
+		363B36D8209386A70088B85B /* hotdogBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BCA2092ABFB0087CE03 /* hotdogBig.png */; };
+		363B36D9209386A70088B85B /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC52092ABF90087CE03 /* nextButton.png */; };
+		363B36DA209386A70088B85B /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC62092ABFA0087CE03 /* character.png */; };
+		363B36DB209386A70088B85B /* hamburgerBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD02092ABFD0087CE03 /* hamburgerBig.png */; };
+		363B36DC209386A70088B85B /* hotdogBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC12092ABF80087CE03 /* hotdogBig@2x.png */; };
+		363B36DD209386A70088B85B /* actionPageBoard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BCB2092ABFB0087CE03 /* actionPageBoard@2x.png */; };
+		363B36DE209386A70088B85B /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC92092ABFA0087CE03 /* checkmark@3x.png */; };
+		363B36DF209386A70088B85B /* dialogue.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BCF2092ABFC0087CE03 /* dialogue.png */; };
+		363B36E0209386A70088B85B /* doughnutBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD72092ABFF0087CE03 /* doughnutBig@2x.png */; };
+		363B36E1209386A70088B85B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD22092ABFD0087CE03 /* background.png */; };
+		363B36E2209386A70088B85B /* potatoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BD32092ABFD0087CE03 /* potatoe.png */; };
+		363B36E3209386A70088B85B /* cuteMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BCC2092ABFB0087CE03 /* cuteMusic.mp3 */; };
+		363B36E4209386A70088B85B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BCE2092ABFC0087CE03 /* home.png */; };
+		363B36E5209386A70088B85B /* actionPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BCD2092ABFC0087CE03 /* actionPage.png */; };
+		363B36E6209386A70088B85B /* salt.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC22092ABF80087CE03 /* salt.png */; };
+		363B36E7209386A70088B85B /* pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC32092ABF90087CE03 /* pepper.png */; };
+		363B36E8209386A70088B85B /* bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = 360F0BC42092ABF90087CE03 /* bowl.png */; };
+		363B36F020938B5F0088B85B /* Gorditas-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 363B36ED20938B410088B85B /* Gorditas-Bold.ttf */; };
+		363B36F120938B5F0088B85B /* Gorditas-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 363B36EE20938B410088B85B /* Gorditas-Regular.ttf */; };
+		363B36F220938B5F0088B85B /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 363B36EF20938B410088B85B /* SIL Open Font License.txt */; };
+		363B36FE209393E10088B85B /* potAsset 1@3x-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 363B36FD209393DF0088B85B /* potAsset 1@3x-8.png */; };
+		363B3700209393F90088B85B /* hotdogAsset 2@3x-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 363B36FF209393F70088B85B /* hotdogAsset 2@3x-8.png */; };
+		363B3702209394120088B85B /* bunAsset 4@3x-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 363B3701209394100088B85B /* bunAsset 4@3x-8.png */; };
+		363B3704209394230088B85B /* bunAsset 3@3x-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 363B3703209394200088B85B /* bunAsset 3@3x-8.png */; };
+		3644707220884370002EA22E /* starsAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3644707120884370002EA22E /* starsAnimation.sks */; };
 		365D1CA5206ABA420064DD38 /* MySceneAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 365D1CA4206ABA410064DD38 /* MySceneAnimation.sks */; };
-		3695788C20697DB300511F95 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3695788B20697DAF00511F95 /* home.png */; };
-		36DCE530205A1F59007B77D9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DCE52F205A1F59007B77D9 /* background.png */; };
-		36DD5EE9207473EA00FEC5D8 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DD5EE8207473EA00FEC5D8 /* secondViewController.swift */; };
-		36EC1B7C207FD40300AAE420 /* thirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1B7B207FD40300AAE420 /* thirdController.swift */; };
-		36F1523E20768C6100675E10 /* salt.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F1523D20768C6000675E10 /* salt.png */; };
-		36F1524020768C6C00675E10 /* pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F1523F20768C6C00675E10 /* pepper.png */; };
-		36F1524220768CE400675E10 /* bowl.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F1524120768CE300675E10 /* bowl.png */; };
+		36AA40492092C5C0003686DE /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AA40482092C5BE003686DE /* lock.png */; };
+		36AA404B2092E35C003686DE /* kitchenBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AA404A2092E34F003686DE /* kitchenBack@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3612F6102063033600D0BB80 /* fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fries.png; path = ../cookingGameStuff/images/fries.png; sourceTree = "<group>"; };
-		3612F6122063034000D0BB80 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hamburger.png; path = ../cookingGameStuff/images/hamburger.png; sourceTree = "<group>"; };
-		3612F6142063034A00D0BB80 /* hotdog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotdog.png; path = ../cookingGameStuff/images/hotdog.png; sourceTree = "<group>"; };
-		3612F6162063035C00D0BB80 /* doughnuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doughnuts.png; path = ../cookingGameStuff/images/doughnuts.png; sourceTree = "<group>"; };
-		3612F61820630F7E00D0BB80 /* cupboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cupboard.png; path = ../cookingGameStuff/images/cupboard.png; sourceTree = "<group>"; };
-		3612F61A20630F8C00D0BB80 /* potatoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = potatoe.png; path = ../cookingGameStuff/images/potatoe.png; sourceTree = "<group>"; };
-		36148F172070708500C4039B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		36148F1B207071C700C4039B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		360F0BC12092ABF80087CE03 /* hotdogBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hotdogBig@2x.png"; sourceTree = "<group>"; };
+		360F0BC22092ABF80087CE03 /* salt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salt.png; sourceTree = "<group>"; };
+		360F0BC32092ABF90087CE03 /* pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pepper.png; sourceTree = "<group>"; };
+		360F0BC42092ABF90087CE03 /* bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowl.png; sourceTree = "<group>"; };
+		360F0BC52092ABF90087CE03 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
+		360F0BC62092ABFA0087CE03 /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		360F0BC72092ABFA0087CE03 /* friesBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "friesBig@2x.png"; sourceTree = "<group>"; };
+		360F0BC82092ABFA0087CE03 /* startpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startpage.png; sourceTree = "<group>"; };
+		360F0BC92092ABFA0087CE03 /* checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@3x.png"; sourceTree = "<group>"; };
+		360F0BCA2092ABFB0087CE03 /* hotdogBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotdogBig.png; sourceTree = "<group>"; };
+		360F0BCB2092ABFB0087CE03 /* actionPageBoard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionPageBoard@2x.png"; sourceTree = "<group>"; };
+		360F0BCC2092ABFB0087CE03 /* cuteMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuteMusic.mp3; sourceTree = "<group>"; };
+		360F0BCD2092ABFC0087CE03 /* actionPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actionPage.png; sourceTree = "<group>"; };
+		360F0BCE2092ABFC0087CE03 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		360F0BCF2092ABFC0087CE03 /* dialogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dialogue.png; sourceTree = "<group>"; };
+		360F0BD02092ABFD0087CE03 /* hamburgerBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgerBig.png; sourceTree = "<group>"; };
+		360F0BD12092ABFD0087CE03 /* Line 51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line 51.png"; sourceTree = "<group>"; };
+		360F0BD22092ABFD0087CE03 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		360F0BD32092ABFD0087CE03 /* potatoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = potatoe.png; sourceTree = "<group>"; };
+		360F0BD42092ABFE0087CE03 /* continueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continueButton.png; sourceTree = "<group>"; };
+		360F0BD52092ABFE0087CE03 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		360F0BD62092ABFE0087CE03 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		360F0BD72092ABFF0087CE03 /* doughnutBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doughnutBig@2x.png"; sourceTree = "<group>"; };
 		361682522058A50600520389 /* let'sCookWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "let'sCookWorking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		361682552058A50600520389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		361682572058A50600520389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,19 +80,18 @@
 		3616825C2058A50600520389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3616825F2058A50600520389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		361682612058A50700520389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		361682672058A61F00520389 /* startpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startpage.png; path = ../cookingGameStuff/images/startpage.png; sourceTree = "<group>"; };
-		361682692058A62A00520389 /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextButton.png; path = ../cookingGameStuff/images/nextButton.png; sourceTree = "<group>"; };
-		3616826B2058A63400520389 /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = character.png; path = ../cookingGameStuff/images/character.png; sourceTree = "<group>"; };
-		3616826F2058AE8E00520389 /* dialogue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dialogue.png; path = ../cookingGameStuff/images/dialogue.png; sourceTree = "<group>"; };
-		365060F52075564D00EDD9A5 /* actionPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = actionPage.png; path = ../cookingGameStuff/images/actionPage.png; sourceTree = "<group>"; };
+		361FC23E208EC92600309707 /* gorditas */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gorditas; path = ../../../../Downloads/gorditas; sourceTree = "<group>"; };
+		363B36ED20938B410088B85B /* Gorditas-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gorditas-Bold.ttf"; sourceTree = "<group>"; };
+		363B36EE20938B410088B85B /* Gorditas-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gorditas-Regular.ttf"; sourceTree = "<group>"; };
+		363B36EF20938B410088B85B /* SIL Open Font License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		363B36FD209393DF0088B85B /* potAsset 1@3x-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "potAsset 1@3x-8.png"; path = "../cookingGameStuff/images/potAsset 1@3x-8.png"; sourceTree = "<group>"; };
+		363B36FF209393F70088B85B /* hotdogAsset 2@3x-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hotdogAsset 2@3x-8.png"; path = "../cookingGameStuff/images/hotdogAsset 2@3x-8.png"; sourceTree = "<group>"; };
+		363B3701209394100088B85B /* bunAsset 4@3x-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bunAsset 4@3x-8.png"; path = "../cookingGameStuff/images/bunAsset 4@3x-8.png"; sourceTree = "<group>"; };
+		363B3703209394200088B85B /* bunAsset 3@3x-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bunAsset 3@3x-8.png"; path = "../cookingGameStuff/images/bunAsset 3@3x-8.png"; sourceTree = "<group>"; };
+		3644707120884370002EA22E /* starsAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starsAnimation.sks; sourceTree = "<group>"; };
 		365D1CA4206ABA410064DD38 /* MySceneAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MySceneAnimation.sks; sourceTree = "<group>"; };
-		3695788B20697DAF00511F95 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../cookingGameStuff/images/home.png; sourceTree = "<group>"; };
-		36DCE52F205A1F59007B77D9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../cookingGameStuff/images/background.png; sourceTree = "<group>"; };
-		36DD5EE8207473EA00FEC5D8 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
-		36EC1B7B207FD40300AAE420 /* thirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdController.swift; sourceTree = "<group>"; };
-		36F1523D20768C6000675E10 /* salt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salt.png; path = ../cookingGameStuff/images/salt.png; sourceTree = "<group>"; };
-		36F1523F20768C6C00675E10 /* pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepper.png; path = ../cookingGameStuff/images/pepper.png; sourceTree = "<group>"; };
-		36F1524120768CE300675E10 /* bowl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowl.png; path = ../cookingGameStuff/images/bowl.png; sourceTree = "<group>"; };
+		36AA40482092C5BE003686DE /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = ../cookingGameStuff/images/lock.png; sourceTree = "<group>"; };
+		36AA404A2092E34F003686DE /* kitchenBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kitchenBack@2x.png"; path = "../cookingGameStuff/images/kitchenBack@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,27 +105,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360F0BC02092ABE30087CE03 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				363B3703209394200088B85B /* bunAsset 3@3x-8.png */,
+				363B3701209394100088B85B /* bunAsset 4@3x-8.png */,
+				363B36FF209393F70088B85B /* hotdogAsset 2@3x-8.png */,
+				363B36FD209393DF0088B85B /* potAsset 1@3x-8.png */,
+				36AA404A2092E34F003686DE /* kitchenBack@2x.png */,
+				36AA40482092C5BE003686DE /* lock.png */,
+				360F0BD62092ABFE0087CE03 /* checkmark.png */,
+				360F0BD42092ABFE0087CE03 /* continueButton.png */,
+				360F0BC72092ABFA0087CE03 /* friesBig@2x.png */,
+				360F0BD52092ABFE0087CE03 /* star.png */,
+				360F0BD12092ABFD0087CE03 /* Line 51.png */,
+				360F0BC82092ABFA0087CE03 /* startpage.png */,
+				360F0BCA2092ABFB0087CE03 /* hotdogBig.png */,
+				360F0BC52092ABF90087CE03 /* nextButton.png */,
+				360F0BC62092ABFA0087CE03 /* character.png */,
+				360F0BD02092ABFD0087CE03 /* hamburgerBig.png */,
+				360F0BC12092ABF80087CE03 /* hotdogBig@2x.png */,
+				360F0BCB2092ABFB0087CE03 /* actionPageBoard@2x.png */,
+				360F0BC92092ABFA0087CE03 /* checkmark@3x.png */,
+				360F0BCF2092ABFC0087CE03 /* dialogue.png */,
+				360F0BD72092ABFF0087CE03 /* doughnutBig@2x.png */,
+				360F0BD22092ABFD0087CE03 /* background.png */,
+				360F0BD32092ABFD0087CE03 /* potatoe.png */,
+				360F0BCC2092ABFB0087CE03 /* cuteMusic.mp3 */,
+				360F0BCE2092ABFC0087CE03 /* home.png */,
+				360F0BCD2092ABFC0087CE03 /* actionPage.png */,
+				360F0BC22092ABF80087CE03 /* salt.png */,
+				360F0BC32092ABF90087CE03 /* pepper.png */,
+				360F0BC42092ABF90087CE03 /* bowl.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		361682492058A50600520389 = {
 			isa = PBXGroup;
 			children = (
+				363B36EC20938B410088B85B /* gorditas */,
+				363B36EB20938B380088B85B /* fonts */,
+				360F0BC02092ABE30087CE03 /* Images */,
 				361682542058A50600520389 /* let'sCookWorking */,
 				361682532058A50600520389 /* Products */,
-				361682672058A61F00520389 /* startpage.png */,
-				361682692058A62A00520389 /* nextButton.png */,
-				3616826B2058A63400520389 /* character.png */,
-				3616826F2058AE8E00520389 /* dialogue.png */,
-				36DCE52F205A1F59007B77D9 /* background.png */,
-				3612F6102063033600D0BB80 /* fries.png */,
-				3612F6122063034000D0BB80 /* hamburger.png */,
-				3612F6142063034A00D0BB80 /* hotdog.png */,
-				3612F6162063035C00D0BB80 /* doughnuts.png */,
-				3612F61820630F7E00D0BB80 /* cupboard.png */,
-				3612F61A20630F8C00D0BB80 /* potatoe.png */,
-				3695788B20697DAF00511F95 /* home.png */,
-				365060F52075564D00EDD9A5 /* actionPage.png */,
-				36F1523D20768C6000675E10 /* salt.png */,
-				36F1523F20768C6C00675E10 /* pepper.png */,
-				36F1524120768CE300675E10 /* bowl.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,17 +165,32 @@
 			children = (
 				361682552058A50600520389 /* AppDelegate.swift */,
 				361682572058A50600520389 /* ViewController.swift */,
-				36DD5EE8207473EA00FEC5D8 /* secondViewController.swift */,
-				36EC1B7B207FD40300AAE420 /* thirdController.swift */,
 				361682592058A50600520389 /* Main.storyboard */,
-				36148F172070708500C4039B /* ViewController.h */,
-				36148F1B207071C700C4039B /* ViewController.m */,
 				3616825C2058A50600520389 /* Assets.xcassets */,
 				3616825E2058A50600520389 /* LaunchScreen.storyboard */,
 				361682612058A50700520389 /* Info.plist */,
+				3644707120884370002EA22E /* starsAnimation.sks */,
 				365D1CA4206ABA410064DD38 /* MySceneAnimation.sks */,
+				361FC23E208EC92600309707 /* gorditas */,
 			);
 			path = "let'sCookWorking";
+			sourceTree = "<group>";
+		};
+		363B36EB20938B380088B85B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		363B36EC20938B410088B85B /* gorditas */ = {
+			isa = PBXGroup;
+			children = (
+				363B36ED20938B410088B85B /* Gorditas-Bold.ttf */,
+				363B36EE20938B410088B85B /* Gorditas-Regular.ttf */,
+				363B36EF20938B410088B85B /* SIL Open Font License.txt */,
+			);
+			path = gorditas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,26 +253,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361682702058AE8E00520389 /* dialogue.png in Resources */,
-				36DCE530205A1F59007B77D9 /* background.png in Resources */,
-				36F1524020768C6C00675E10 /* pepper.png in Resources */,
+				363B36F020938B5F0088B85B /* Gorditas-Bold.ttf in Resources */,
+				363B36F120938B5F0088B85B /* Gorditas-Regular.ttf in Resources */,
+				363B3704209394230088B85B /* bunAsset 3@3x-8.png in Resources */,
+				363B36F220938B5F0088B85B /* SIL Open Font License.txt in Resources */,
+				363B36D2209386A70088B85B /* checkmark.png in Resources */,
+				363B36D3209386A70088B85B /* continueButton.png in Resources */,
+				363B36D4209386A70088B85B /* friesBig@2x.png in Resources */,
+				363B36D5209386A70088B85B /* star.png in Resources */,
+				363B36D6209386A70088B85B /* Line 51.png in Resources */,
+				363B36D7209386A70088B85B /* startpage.png in Resources */,
+				363B36D8209386A70088B85B /* hotdogBig.png in Resources */,
+				363B36D9209386A70088B85B /* nextButton.png in Resources */,
+				363B36DA209386A70088B85B /* character.png in Resources */,
+				363B36DB209386A70088B85B /* hamburgerBig.png in Resources */,
+				363B36DC209386A70088B85B /* hotdogBig@2x.png in Resources */,
+				363B36DD209386A70088B85B /* actionPageBoard@2x.png in Resources */,
+				363B36DE209386A70088B85B /* checkmark@3x.png in Resources */,
+				363B36DF209386A70088B85B /* dialogue.png in Resources */,
+				363B36E0209386A70088B85B /* doughnutBig@2x.png in Resources */,
+				363B36E1209386A70088B85B /* background.png in Resources */,
+				363B36E2209386A70088B85B /* potatoe.png in Resources */,
+				363B36FE209393E10088B85B /* potAsset 1@3x-8.png in Resources */,
+				363B36E3209386A70088B85B /* cuteMusic.mp3 in Resources */,
+				363B36E4209386A70088B85B /* home.png in Resources */,
+				363B36E5209386A70088B85B /* actionPage.png in Resources */,
+				363B3702209394120088B85B /* bunAsset 4@3x-8.png in Resources */,
+				363B36E6209386A70088B85B /* salt.png in Resources */,
+				363B36E7209386A70088B85B /* pepper.png in Resources */,
+				363B36E8209386A70088B85B /* bowl.png in Resources */,
 				361682602058A50600520389 /* LaunchScreen.storyboard in Resources */,
-				3616826A2058A62A00520389 /* nextButton.png in Resources */,
 				3616825D2058A50600520389 /* Assets.xcassets in Resources */,
-				3612F6112063033600D0BB80 /* fries.png in Resources */,
 				3616825B2058A50600520389 /* Main.storyboard in Resources */,
+				361FC23F208EC92600309707 /* gorditas in Resources */,
 				365D1CA5206ABA420064DD38 /* MySceneAnimation.sks in Resources */,
-				361682682058A61F00520389 /* startpage.png in Resources */,
-				3612F61920630F7E00D0BB80 /* cupboard.png in Resources */,
-				36F1524220768CE400675E10 /* bowl.png in Resources */,
-				3616826C2058A63400520389 /* character.png in Resources */,
-				36F1523E20768C6100675E10 /* salt.png in Resources */,
-				3612F61B20630F8C00D0BB80 /* potatoe.png in Resources */,
-				365060F62075564E00EDD9A5 /* actionPage.png in Resources */,
-				3695788C20697DB300511F95 /* home.png in Resources */,
-				3612F6172063035C00D0BB80 /* doughnuts.png in Resources */,
-				3612F6152063034B00D0BB80 /* hotdog.png in Resources */,
-				3612F6132063034000D0BB80 /* hamburger.png in Resources */,
+				363B3700209393F90088B85B /* hotdogAsset 2@3x-8.png in Resources */,
+				3644707220884370002EA22E /* starsAnimation.sks in Resources */,
+				36AA404B2092E35C003686DE /* kitchenBack@2x.png in Resources */,
+				36AA40492092C5C0003686DE /* lock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,11 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36DD5EE9207473EA00FEC5D8 /* secondViewController.swift in Sources */,
-				36148F1C207071C700C4039B /* ViewController.m in Sources */,
 				361682582058A50600520389 /* ViewController.swift in Sources */,
 				361682562058A50600520389 /* AppDelegate.swift in Sources */,
-				36EC1B7C207FD40300AAE420 /* thirdController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9URCF2336;
 				INFOPLIST_FILE = "let'sCookWorking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Winthrop.let-sCookWorking";
@@ -381,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9URCF2336;
 				INFOPLIST_FILE = "let'sCookWorking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Winthrop.let-sCookWorking";
